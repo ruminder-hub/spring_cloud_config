@@ -1,5 +1,8 @@
 logging:
   level:
+    root: WARN
+logging:
+  level:
     com:
       ruminderhub: INFO
 

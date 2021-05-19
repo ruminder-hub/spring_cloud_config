@@ -1,5 +1,9 @@
 logging:
   level:
-    root: DEBUG
+    root: WARN
+logging:
+  level:
+    com:
+      ruminderhub: DEBUG
 
 database: app_develop
