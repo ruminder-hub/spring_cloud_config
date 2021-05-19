@@ -1,5 +1,6 @@
 logging:
   level:
-    root: INFO
+    com:
+      ruminderhub: INFO
 
 database: app_prod
