@@ -6,4 +6,14 @@ logging:
     com:
       ruminderhub: DEBUG
 
+logging:
+  group:
+    tomcat: 
+     - org.apache.catalina
+     - org.apache.coyote
+     - org.apache.tomcat
+logging:
+  level:
+    tomcat: INFO
+
 database: app_develop
