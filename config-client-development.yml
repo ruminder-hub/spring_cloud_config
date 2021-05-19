@@ -1,19 +1,14 @@
 logging:
-  level:
-    root: WARN
-logging:
-  level:
-    com:
-      ruminderhub: DEBUG
-
-logging:
   group:
     tomcat: 
      - org.apache.catalina
      - org.apache.coyote
      - org.apache.tomcat
-logging:
   level:
+    root: WARN
+    com:
+      ruminderhub: DEBUG
     tomcat: INFO
+    
 
 database: app_develop
